@@ -1,0 +1,105 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: grey;
+}
+.navbar .max-width{
+	display: flex;
+	width: 1300px;
+	justify-content: space-between;
+	align-content: center;
+	margin: 20px auto;
+
+}
+
+
+
+.put{
+	margin: 2px;
+	padding: 10px; 
+	border-radius: 30px;
+	outline: none;
+	background-color: #f2f2f2;
+
+
+}
+
+.logo a{
+	color: white;
+	font-size: 40px;
+	background-color: black;
+	
+
+}
+.logo a span{
+	color: black;
+	background-color: white;
+
+
+}
+
+.menu{
+	padding-top: 10px;
+}
+
+.menu li{
+	display: inline-block;	
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200px;
+	margin-left: 25px;
+	transition: color 1s;
+
+}
+.menu li a:hover{
+	color: black;
+}
+
+/*****************************************/
+
+.tb {
+	background-color: grey;
+	border-radius: 10px;
+	width: 200px;
+	height: 40px;
+}
+.hy{
+	text-transform: italic;
+
+}
+
+label
+{
+	display: inline;
+	width: 150px;
+	float: left;
+}
+
+form{
+	display: inline;
+}
+.button-one{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 100px;
+	background-color: black;
+	color: #fff;
+	border: 2px;
+	padding: 10px 40px;
+	border-radius: 20px;
+}
+.button-one:hover{
+	background-color: crimson;
+}
+.hu{
+	background-image: url('air-jordan-1-retro-high-og-chicago.jpg');
+}

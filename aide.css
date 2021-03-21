@@ -1,0 +1,106 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+}
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: grey;
+}
+.navbar .max-width{
+	display: flex;
+	width: 1300px;
+	justify-content: space-between;
+	align-content: center;
+	margin: 20px auto;
+
+}
+
+
+
+.put{
+	margin: 2px;
+	padding: 10px; 
+	border-radius: 30px;
+	outline: none;
+	background-color: #f2f2f2;
+
+
+}
+
+.logo a{
+	color: white;
+	font-size: 40px;
+	background-color: black;
+	
+
+}
+.logo a span{
+	color: black;
+	background-color: white;
+
+
+}
+.home{
+	background-color: grey;
+}
+
+.menu{
+	padding-top: 10px;
+}
+
+.menu li{
+	display: inline-block;	
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200px;
+	margin-left: 25px;
+	transition: color 1s;
+
+}
+.menu li a:hover{
+	color: black;
+}
+/***************************************/
+#div4{
+	display: flex;
+	justify-content: space-between;
+	background-image: url("1.jpg");
+
+}
+#divo{
+	text-align: justify;
+	width: 450px;
+	height: 200px;
+	margin-left: 150px;
+	font-size: 25px;
+	margin-bottom: 250px;
+}
+#ik{
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+#em{
+	margin-top: 70px;
+	margin-right: 200px;
+}
+
+#im{
+	background-color: crimson;
+	margin-bottom: 100px;
+	text-align: center;
+	border-radius: 10px;
+}
+#im a{
+	color: white;
+}
+/************************************************************/
+#ik{
+	border-radius: 50px;
+}
